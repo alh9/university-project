@@ -1,0 +1,245 @@
+languagesystem arab dflt;
+
+
+# GSUB 
+
+
+lookup initInitialFormsinArabiclookup0 {
+  lookupflag RightToLeft;
+    sub \u0626 by \uFE8B ;
+    sub \u0628 by \uFE91 ;
+    sub \u067E by \uFB58 ;
+    sub \u062A by \uFE97 ;
+    sub \u062B by \uFE9B ;
+    sub \u062C by \uFE9F ;
+    sub \u0686 by \uFB7C ;
+    sub \u062D by \uFEA3 ;
+    sub \u062E by \uFEA7 ;
+    sub \u062F by \u062F ;
+    sub \u0633 by \uFEB3 ;
+    sub \u0634 by \uFEB7 ;
+    sub \u0635 by \uFEBB ;
+    sub \u0636 by \uFEBF ;
+    sub \u0637 by \uFEC3 ;
+    sub \u0638 by \uFEC7 ;
+    sub \u0639 by \uFECB ;
+    sub \u063A by \uFECF ;
+    sub \u0641 by \uFED3 ;
+    sub \u0642 by \uFED7 ;
+    sub \u0643 by \uFEDB ;
+    sub \u06AF by \uFB94 ;
+    sub \u0644 by \uFEDF ;
+    sub \u0645 by \uFEE3 ;
+    sub \u0646 by \uFEE7 ;
+    sub \u0647 by \uFEEB ;
+    sub \u064A by \uFEF3 ;
+} initInitialFormsinArabiclookup0;
+
+lookup mediMedialFormsinArabiclookup1 {
+  lookupflag RightToLeft;
+    sub \u0626 by \uFE8C ;
+    sub \u0628 by \uFE92 ;
+    sub \u067E by \uFB59 ;
+    sub \u062A by \uFE98 ;
+    sub \u062B by \uFE9C ;
+    sub \u062C by \uFEA0 ;
+    sub \u0686 by \uFB7D ;
+    sub \u062D by \uFEA4 ;
+    sub \u062E by \uFEA8 ;
+    sub \u0633 by \uFEB4 ;
+    sub \u0634 by \uFEB8 ;
+    sub \u0635 by \uFEBC ;
+    sub \u0636 by \uFEC0 ;
+    sub \u0637 by \uFEC4 ;
+    sub \u0638 by \uFEC8 ;
+    sub \u0639 by \uFECC ;
+    sub \u063A by \uFED0 ;
+    sub \u0641 by \uFED4 ;
+    sub \u0642 by \uFED8 ;
+    sub \u0643 by \uFEDC ;
+    sub \u06AF by \uFB95 ;
+    sub \u0644 by \uFEE0 ;
+    sub \u0645 by \uFEE4 ;
+    sub \u0646 by \uFEE8 ;
+    sub \u0647 by \uFEEC ;
+    sub \u064A by \uFEF4 ;
+} mediMedialFormsinArabiclookup1;
+
+lookup finaTerminalFormsinArabiclookup2 {
+  lookupflag RightToLeft;
+    sub \u0622 by \Hcircumflex ;
+    sub \u0623 by \uFE84 ;
+    sub \u0624 by \uFE86 ;
+    sub \u0625 by \uFE88 ;
+    sub \u0626 by \uFE8A ;
+    sub \u0627 by \uFE8E ;
+    sub \u0628 by \uFE90 ;
+    sub \u067E by \uFB57 ;
+    sub \u062A by \uFE96 ;
+    sub \u062B by \uFE9A ;
+    sub \u062C by \uFE9E ;
+    sub \u0686 by \uFB7B ;
+    sub \u062D by \uFEA2 ;
+    sub \u062E by \uFEA6 ;
+    sub \u062F by \uFEAA ;
+    sub \u0630 by \uFEAC ;
+    sub \u0631 by \uFEAE ;
+    sub \u0632 by \uFEB0 ;
+    sub \u0698 by \uFB8B ;
+    sub \u0633 by \uFEB2 ;
+    sub \u0634 by \uFEB6 ;
+    sub \u0635 by \uFEBA ;
+    sub \u0636 by \uFEBE ;
+    sub \u0637 by \uFEC2 ;
+    sub \u0638 by \uFEC6 ;
+    sub \u0639 by \uFECA ;
+    sub \u063A by \uFECE ;
+    sub \u0641 by \uFED2 ;
+    sub \u0642 by \uFED6 ;
+    sub \u0643 by \uFEDA ;
+    sub \u06AF by \uFB93 ;
+    sub \u0644 by \uFEDE ;
+    sub \u0645 by \uFEE2 ;
+    sub \u0646 by \uFEE6 ;
+    sub \u0648 by \uFEEE ;
+    sub \u0647 by \uFEEA ;
+    sub \u0629 by \uFE94 ;
+    sub \u064A by \uFEF2 ;
+    sub \uFEF5 by \uFEF6 ;
+    sub \uFEF7 by \uFEF8 ;
+    sub \uFEF9 by \uFEFA ;
+    sub \uFEFB by \uFEFC ;
+    sub \u0649 by \uFEF0 ;
+} finaTerminalFormsinArabiclookup2;
+
+lookup ligaStandardLigaturesinArabiclookup3 {
+  lookupflag RightToLeft IgnoreMarks;
+    sub \uFEDF \Hcircumflex  by \uFEF5;
+    sub \uFEE0 \Hcircumflex  by \uFEF6;
+    sub \uFEDF \uFE84  by \uFEF7;
+    sub \uFEE0 \uFE84  by \uFEF8;
+    sub \uFEDF \uFE88  by \uFEF9;
+    sub \uFEE0 \uFE88  by \uFEFA;
+    sub \uFEDF \uFE8E  by \uFEFB;
+    sub \uFEE0 \uFE8E  by \uFEFC;
+    sub \uFEDF \uFEE0 \uFEEA  by \uFDF2;
+} ligaStandardLigaturesinArabiclookup3;
+
+lookup ligaStandardLigaturesinArabiclookup4 {
+  lookupflag RightToLeft IgnoreBaseGlyphs IgnoreLigatures;
+    sub \u0651 \u064E  by \uFC60;
+    sub \u0651 \u064F  by \uFC61;
+    sub \u0651 \u064B  by \uE818;
+    sub \u0651 \u064C  by \uFC5E;
+    sub \u0651 \u0650  by \uFC62;
+    sub \u0651 \u064D  by \uFC5F;
+    sub \u0652 \u064E  by \u0652_u064E.liga;
+    sub \u0652 \u064B  by \u0652_u064B.liga;
+    sub \u0652 \u064D  by \u0652_u064D.liga;
+} ligaStandardLigaturesinArabiclookup4;
+
+lookup msetMarkPositioningviaSubstitutioninArabiclookup5 {
+  lookupflag RightToLeft;
+    @cc5_match_0 = [\uFE97 \uFE98 \u062B \uFE9A \uFE9B \uFE9C \u062E \uFEA6 \uFEA7 \uFEA8 \u0630 \uFEAC 
+	\uFEAE \uFEB0 \u0698 \uFB8B \uFEB7 \uFEB8 \uFEBF \uFEC0 \u0637 \uFEC2 
+	\uFEC3 \uFEC4 \u0638 \uFEC6 \uFEC7 \uFEC8 \u063A \uFECF \uFED0 \uFED3 
+	\uFED4 \u0642 \uFED6 \uFED7 \uFED8 \uFEDB \uFEDC \uFB94 \uFB95 \u0644 
+	\uFEDE \uFEDF \uFEE0 \u0646 \uFEE6 \uFEE7 \uFEE8 \u0629 \uFE94 \uFEF5 
+	\uFEF6 \uFEF7 \uFEF8 \uFEF9 \uFEFA \uFEFB \uFEFC ];
+    @cc5_match_1 = [\u0622 \Hcircumflex \u0623 \uFE84 \u0624 \uFE86 \u0625 \uFE88 \u0626 \uFE8A \uFECE ];
+    @cc5_match_2 = [\u0621 \uFE8B \uFE8C \u0627 \uFE8E \u0628 \uFE90 \uFE91 \uFE92 \u067E \uFB57 \uFB58 
+	\uFB59 \u062A \uFE96 \u062C \uFE9E \uFE9F \uFEA0 \u0686 \uFB7B \uFB7C 
+	\uFB7D \u062D \uFEA2 \uFEA3 \uFEA4 \u062F \uFEAA \u0631 \u0632 \u0633 
+	\uFEB2 \uFEB3 \uFEB4 \u0634 \uFEB6 \u0635 \uFEBA \uFEBB \uFEBC \u0636 
+	\uFEBE \u0639 \uFECA \uFECB \uFECC \u0641 \uFED2 \u0643 \uFEDA \u06AF 
+	\uFB93 \u0645 \uFEE2 \uFEE3 \uFEE4 \u0648 \uFEEE \u0647 \uFEEA \uFEEB 
+	\uFEEC \u064A \uFEF2 \uFEF3 \uFEF4 \u0649 \uFEF0 ];
+    sub @cc5_match_2' @cc5_match_1'  by [NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL ] ;
+} msetMarkPositioningviaSubstitutioninArabiclookup5;
+
+lookup msetMarkPositioningviaSubstitutioninArabiclookup7 {
+  lookupflag RightToLeft;
+    @cc7_match_0 = [\u0639 \uFECA \u063A \uFECE \u0642 \uFED6 \u0644 \uFEDE \u0645 \uFEE2 \u0646 \uFEE6 
+	\u0648 \uFEEE \uFEEC \u0629 \uFE94 \u064A \uFEF2 \uFEF3 \uFEF4 \uFEF9 
+	\uFEFA \u0649 \uFEF0 ];
+    @cc7_match_1 = [\u0624 \uFE86 \u0625 \uFE88 \u0626 \uFE8A \u0628 \uFE90 \uFE91 \uFE92 \u067E \uFB57 
+	\uFB58 \uFB59 \u062C \uFE9E \uFE9F \uFEA0 \u0686 \uFB7B \uFB7C \uFB7D 
+	\u062D \uFEA2 \u062E \uFEA6 \u0631 \uFEAE \u0632 \uFEB0 \u0698 \uFB8B 
+	\u0633 \uFEB2 \u0634 \uFEB6 \u0635 \uFEBA \u0636 \uFEBE ];
+    @cc7_match_2 = [\u0621 \u0622 \Hcircumflex \u0623 \uFE84 \uFE8B \uFE8C \u0627 \uFE8E \u062A \uFE96 
+	\uFE97 \uFE98 \u062B \uFE9A \uFE9B \uFE9C \uFEA3 \uFEA4 \uFEA7 \uFEA8 
+	\u062F \uFEAA \u0630 \uFEAC \uFEB3 \uFEB4 \uFEB7 \uFEB8 \uFEBB \uFEBC 
+	\uFEBF \uFEC0 \u0637 \uFEC2 \uFEC3 \uFEC4 \u0638 \uFEC6 \uFEC7 \uFEC8 
+	\uFECB \uFECC \uFECF \uFED0 \u0641 \uFED2 \uFED3 \uFED4 \uFED7 \uFED8 
+	\u0643 \uFEDA \uFEDB \uFEDC \u06AF \uFB93 \uFB94 \uFB95 \uFEDF \uFEE0 
+	\uFEE3 \uFEE4 \uFEE7 \uFEE8 \u0647 \uFEEA \uFEEB \uFEF5 \uFEF6 \uFEF7 
+	\uFEF8 \uFEFB \uFEFC ];
+    sub @cc7_match_2' @cc7_match_1'  by [NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL NULL ] ;
+} msetMarkPositioningviaSubstitutioninArabiclookup7;
+
+feature init {
+
+ script arab;
+     language dflt ;
+      lookup initInitialFormsinArabiclookup0;
+} init;
+
+feature medi {
+
+ script arab;
+     language dflt ;
+      lookup mediMedialFormsinArabiclookup1;
+} medi;
+
+feature fina {
+
+ script arab;
+     language dflt ;
+      lookup finaTerminalFormsinArabiclookup2;
+} fina;
+
+feature liga {
+
+ script arab;
+     language dflt ;
+      lookup ligaStandardLigaturesinArabiclookup3;
+      lookup ligaStandardLigaturesinArabiclookup4;
+} liga;
+
+feature mset {
+
+ script arab;
+     language dflt ;
+      lookup msetMarkPositioningviaSubstitutioninArabiclookup5;
+      lookup msetMarkPositioningviaSubstitutioninArabiclookup7;
+} mset;
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \percent \parenleft 
+	\parenright \asterisk \plus \comma \hyphen \period \slash \zero \one \two \three 
+	\four \five \six \seven \eight \nine \colon \equal \bracketleft \bracketright 
+	\braceleft \braceright \guillemotleft \guillemotright \multiply \divide 
+	\zeronojoin \zerojoin \lefttoright \righttoleft \quoteleft \quoteright 
+	\quotedblleft \quotedblright \guilsinglleft \guilsinglright \u060C \u061B 
+	\u061F \u0640 \u064B \u064C \u064D \u064E \u064F \u0650 \u0651 \u0652 \uE820 \uE821 
+	\uE822 \uE823 \uE824 \uE825 \uE826 \uE827 \uE828 \uE829 \uE82A \uE82B \uE82C \uE82D 
+	\u0621 \u0622 \Hcircumflex \u0623 \uFE84 \u0624 \uFE86 \u0625 \uFE88 \u0626 \uFE8A 
+	\uFE8B \uFE8C \u0627 \uFE8E \u0628 \uFE90 \uFE91 \uFE92 \u067E \uFB57 \uFB58 \uFB59 
+	\u062A \uFE96 \uFE97 \uFE98 \u062B \uFE9A \uFE9B \uFE9C \u062C \uFE9E \uFE9F \uFEA0 
+	\u0686 \uFB7B \uFB7C \uFB7D \u062D \uFEA2 \uFEA3 \uFEA4 \u062E \uFEA6 \uFEA7 \uFEA8 
+	\u062F \uFEAA \u0630 \uFEAC \u0631 \uFEAE \u0632 \uFEB0 \u0698 \uFB8B \u0633 \uFEB2 
+	\uFEB3 \uFEB4 \u0634 \uFEB6 \uFEB7 \uFEB8 \u0635 \uFEBA \uFEBB \uFEBC \u0636 \uFEBE 
+	\uFEBF \uFEC0 \u0637 \uFEC2 \uFEC3 \uFEC4 \u0638 \uFEC6 \uFEC7 \uFEC8 \u0639 \uFECA 
+	\uFECB \uFECC \u063A \uFECE \uFECF \uFED0 \u0641 \uFED2 \uFED3 \uFED4 \u0642 \uFED6 
+	\uFED7 \uFED8 \u0643 \uFEDA \uFEDB \uFEDC \u06AF \uFB93 \uFB94 \uFB95 \u0644 \uFEDE 
+	\uFEDF \uFEE0 \u0645 \uFEE2 \uFEE3 \uFEE4 \u0646 \uFEE6 \uFEE7 \uFEE8 \u0648 \uFEEE 
+	\u0647 \uFEEA \uFEEB \uFEEC \u0629 \uFE94 \u064A \uFEF2 \uFEF3 \uFEF4 \u0649 \uFEF0 
+	\periodcentered \glyph218 ];
+@GDEF_Ligature = [\uFC60 \uFC61 \uE818 \uFC5E \uFC62 \uFC5F \uFEF5 \uFEF6 \uFEF7 
+	\uFEF8 \uFEF9 \uFEFA \uFEFB \uFEFC \uFDF2 \u0652_u064E.liga \u0652_u064B.liga 
+	\u0652_u064D.liga ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

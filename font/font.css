@@ -1,0 +1,25 @@
+@font-face {
+  font-family: '';
+  src: ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BNazaninBold';
+  src: url('BNazaninBold.svg#BNazaninBold') format('svg'),
+       url('BNazaninBold.ttf') format('truetype'),
+       url('BNazaninBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BNaznnBd';
+  src: url('BNaznnBd.eot');
+  src: url('BNaznnBd.eot?#iefix') format('embedded-opentype'),
+       url('BNaznnBd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

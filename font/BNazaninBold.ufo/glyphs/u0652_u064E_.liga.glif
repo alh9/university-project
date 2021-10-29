@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u0652_u064E.liga" format="2">
+  <advance width="1"/>
+  <outline>
+    <contour>
+      <point x="237" y="971" type="line" smooth="yes"/>
+      <point x="237" y="953"/>
+      <point x="212" y="913" type="qcurve" smooth="yes"/>
+      <point x="206" y="903"/>
+      <point x="203" y="903" type="qcurve" smooth="yes"/>
+      <point x="199" y="903"/>
+      <point x="196" y="926" type="qcurve" smooth="yes"/>
+      <point x="165" y="1190" type="line"/>
+      <point x="225" y="1228" type="line" smooth="yes"/>
+      <point x="231" y="1232"/>
+      <point x="234" y="1232" type="qcurve" smooth="yes"/>
+      <point x="237" y="1231"/>
+      <point x="237" y="1227" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
